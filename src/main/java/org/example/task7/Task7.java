@@ -12,7 +12,6 @@ public class Task7 {
         double taxiDecelerationInTheEvening = 1.2;
         double timeToHome = timeToOffice * taxiDecelerationInTheEvening;
 
-
         System.out.println("Расстояние от дома до офиса (в км): " + distanceHomeToWork);
         System.out.println("Скорость такси (км/ч): " + taxiSpeed);
         System.out.println("Тестировщик доберется до работы из дома, за время (час): " + timeToOffice);

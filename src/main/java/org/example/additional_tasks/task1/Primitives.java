@@ -11,10 +11,8 @@ public class Primitives {
     short aShort = 2;
     int anInt = 3;
     long aLong = 4L;
-
     float aFloat = 1.4F;
     double aDouble = 2.5;
-
     boolean aBoolean = true;
 
     char aChar = 'A';

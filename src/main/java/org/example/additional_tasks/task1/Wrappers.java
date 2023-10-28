@@ -11,12 +11,9 @@ public class Wrappers {
     Short aShort = 2;
     Integer anInt = 3;
     Long aLong = 4L;
-
     Float aFloat = 1.4F;
     Double aDouble = 2.5;
-
     Boolean aBoolean = true;
-
     Character aChar = 'A';
 
 }

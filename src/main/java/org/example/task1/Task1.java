@@ -11,10 +11,7 @@ public class Task1 {
         int leftoverApples = amountAppleOfPinocchio - takenAwayApples;
 
         System.out.println("У Буратино " + amountAppleOfPinocchio + " яблок");
-
-        System.out.println("Карабас Барабас забрал у Буратино " +
-                takenAwayApples + " яблок");
-
+        System.out.println("Карабас Барабас забрал у Буратино " + takenAwayApples + " яблок");
         System.out.println("У Буратино осталось " + leftoverApples + " яблока");
     }
 }
