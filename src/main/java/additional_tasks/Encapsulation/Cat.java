@@ -9,7 +9,6 @@ public class Cat {
 
     // Поля класса должны быть приватными (реализация инкапсуляции)
     private String name;
-
     private int age;
     private int weight;
 
@@ -39,6 +38,7 @@ public class Cat {
     public int getWeight() {
         return weight;
     }
+
     public void setWeight(int weight) {
         this.weight = weight;
     }
