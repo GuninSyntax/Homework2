@@ -22,7 +22,6 @@ public class Shirts {
         double amountOfMoneySaved = quantityForDiscount * shirtPrice - discountedPricesForAllShirts;
         double numberOfFreeShirts = amountOfMoneySaved / shirtPrice;
 
-
         System.out.println("Цена одной рубашки без скидки: " + shirtPrice);
         System.out.println("Кол-во выбранных рубашек: " + numberOfSelectedShirts);
         System.out.println("Кол-во рубашек, которые нужно купить, чтобы получить скидку: " + quantityForDiscount);
