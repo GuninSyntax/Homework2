@@ -8,7 +8,8 @@ public class Glass {
     public static void main(String[] args) {
         int glassVolume = 250;
         double glassFillingPercentage = 80;
-        double actualGlassFilling = glassVolume / 100 * glassFillingPercentage;
+        double coefficientFilling = glassFillingPercentage / 100;
+        double actualGlassFilling = glassVolume * coefficientFilling;
 
         System.out.println("Объем стакана в милилитрах: " + glassVolume);
         System.out.println("Процент заполнения стакана: " + glassFillingPercentage + "%");

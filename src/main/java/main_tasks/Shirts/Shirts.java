@@ -13,9 +13,12 @@ public class Shirts {
         int needAddedForDiscount = quantityForDiscount - numberOfSelectedShirts;
         int totalPriceSelectedShirts = shirtPrice * numberOfSelectedShirts;
         int totalPriceShirtsForDiscount = shirtPrice * needAddedForDiscount;
+        double totalPricePercentage = 100;
         double discountPercentage = 30;
-        double discountedPricesForAllShirts = shirtPrice / 100 * (100 - discountPercentage) * quantityForDiscount;
-        double discountedPriceForOneShirt = shirtPrice / 100 * (100 - discountPercentage);
+        double discountPricePercentage = totalPricePercentage - discountPercentage;
+        double coefficientDiscountPrice = discountPricePercentage / 100;
+        double discountedPricesForAllShirts = Math.round(shirtPrice * coefficientDiscountPrice * quantityForDiscount);
+        double discountedPriceForOneShirt = Math.round(shirtPrice * coefficientDiscountPrice);
         double amountOfMoneySaved = quantityForDiscount * shirtPrice - discountedPricesForAllShirts;
         double numberOfFreeShirts = amountOfMoneySaved / shirtPrice;
 
