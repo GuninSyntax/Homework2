@@ -17,7 +17,5 @@ public class TravelTime {
         System.out.println("Тестировщик доберется до работы из дома, за время (час): " + timeToOffice);
         System.out.println("Коэффициент замедления транспорта вечером: " + taxiDecelerationInTheEvening);
         System.out.println("Тестировщик доберется до дома с работы, за время (час): " + timeToHome);
-
-
     }
 }

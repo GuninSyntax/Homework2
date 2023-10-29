@@ -15,5 +15,4 @@ public class Wrappers {
     Double aDouble = 2.5;
     Boolean aBoolean = true;
     Character aChar = 'A';
-
 }

@@ -14,6 +14,5 @@ public class Primitives {
     float aFloat = 1.4F;
     double aDouble = 2.5;
     boolean aBoolean = true;
-
     char aChar = 'A';
 }
